@@ -10,7 +10,7 @@ python3 decoder.py file.wav
 Notes
 * Reads 16bit WAV files
 * Data in 2 bit chunks
-* Frequency decided by: 2^(3+n). Nmin = 0, N max = 3
+* Frequency decided by: 2^(3+n). Nmin = 0, Nmax = 3
 * Chunks last 1ms
 * 00 = >5400
 * 01 = >5000<5400
